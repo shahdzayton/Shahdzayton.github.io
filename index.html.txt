@@ -1,0 +1,52 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>موقعي الشخصي</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 20px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>أهلاً! أنا شهد زيتون 👩‍💻</h1>
+        <p>مطور ويب وطالبة بكلية حاسبات ومعلومات</p>
+    </header>
+
+    <section>
+        <h2>عنّي</h2>
+        <p>ده أول موقع أعمله باستخدام GitHub Pages ✨</p>
+    </section>
+
+    <section>
+        <h2>تواصلي معايا</h2>
+        <p>📧 shahdzayton678@gmail.com</p>
+        <p>📱 01206852881</p>
+    </section>
+
+    <footer>
+        <p>© 2025 جميع الحقوق محفوظة</p>
+    </footer>
+</body>
+</html>
