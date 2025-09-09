@@ -1,0 +1,117 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>بورتفوليو شهد زيتون</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f9fc;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #2575fc;
+      margin-bottom: 20px;
+    }
+    .projects, .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+    }
+    .skills span {
+      display: inline-block;
+      background: #2575fc;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 20px;
+      margin: 5px;
+      font-size: 0.9em;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>شهد زيتون 👩‍💻</h1>
+    <p>طالبة حاسبات ومعلومات | مطور ويب</p>
+  </header>
+
+  <section>
+    <h2>المشاريع</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Store Up</h3>
+        <p>مشروع التخرج - منصة لإنشاء صفحات لأصحاب البيزنس.</p>
+      </div>
+      <div class="card">
+        <h3>مشروع 2</h3>
+        <p>اكتبي هنا شرح بسيط عن أي مشروع عملتيه.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>المهارات</h2>
+    <div class="skills">
+      <span>Python</span>
+      <span>C++</span>
+      <span>Java</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>MySQL</span>
+      <span>Oracle</span>
+      <span>Git</span>
+      <span>Figma</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>تواصل معايا</h2>
+    <p>📧 <a href="mailto:shahdzayton678@gmail.com">shahdzayton678@gmail.com</a></p>
+    <p>📱 01206852881</p>
+    <p>🔗 LinkedIn (هنا تحطي اللينك لما تعمليه)</p>
+  </section>
+
+  <footer>
+    <p>© 2025 جميع الحقوق محفوظة - شهد زيتون</p>
+  </footer>
+
+</body>
+</html>
